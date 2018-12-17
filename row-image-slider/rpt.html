@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css"> 
+		.slider{
+			width:100%; 
+			overflow:hidden; 
+		}
+		.slider-img-box{
+			width:500%;  
+			animation: slider-anim 7s infinite; 
+		}
+		img{
+			width:20%; float:left; 
+			height:300px; 
+		}
+		@keyframes slider-anim{
+			0%{ margin-left:0%; }
+			20%{ margin-left:-100%; }
+			40%{ margin-left:-200%; }
+			60%{ margin-left:-300%; }
+			80%{ margin-left:-400%; }
+			100%{ margin-left:0%; }
+		}
+	</style>
+</head>
+<body>
+
+<div class="slider">
+	<div class="slider-img-box">
+		<img src="1.jpg" alt="n/a"> 
+		<img src="2.jpg" alt="n/a"> 
+		<img src="3.jpg" alt="n/a"> 
+		<img src="4.jpg" alt="n/a"> 
+		<img src="5.jpg" alt="n/a"> 
+	 </div>
+ </div>
+ 
+</body>
+</html>
