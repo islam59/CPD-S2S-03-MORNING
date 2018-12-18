@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css"> 
+		*{ margin:0px; padding:0px; 	}
+		.section-header{ background:#ffffcc; }
+		.header-item{
+				min-height:80px; line-height:80px; 
+		}
+		.title{
+				color:#31B0D5; font-weight:bold; 
+		}
+		.header-item span{
+			font-size:18px; 
+		}
+		
+		.navbar-default{
+			border:0px; 
+			background:#d0d0d0; 
+			border-radius:0px; 
+			margin-bottom:0px; 
+		}
+	
+	</style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div  class="container">
+<!------------------------------------------------------------>
+<!-----START HEADER ------------------------------------->
+<!------------------------------------------------------------>
+<section class="section-header row">
+	<div class="col-md-9 header-item">
+		<h1 class="title text-center">Header</h1>	
+	</div>
+	<div class="col-md-3 text-center header-item">
+		<a href="" class="btn btn-info"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span></a>
+		<a href="" class="btn btn-info"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></a>
+		<a href="" class="btn btn-info"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+		<a href="" class="btn btn-info"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span></a>
+	</div>
+</section>
+<!------------------------------------------------------------>
+<!-----END HEADER ------------------------------------->
+<!------------------------------------------------------------>
+
+
+<!------------------------------------------------------------>
+<!-----START menu ----------------------------------------->
+<!------------------------------------------------------------>
+<section class="section-menu row">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Enter Search Keyword !">
+        </div>
+        <button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Pages</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</section>
+<!------------------------------------------------------------>
+<!-----END menu ------------------------------------------->
+<!------------------------------------------------------------>
+		
+	
+<!------------------------------------------------------------>
+<!-----START content-top  ------------------------------------->
+<!------------------------------------------------------------>
+<section class="section-content-top row">
+		<div class="col-md-2">
+			<div style="height:130px; background:purple; margin-top:15px; "></div>
+			<div style="height:130px; background:purple; margin-top:15px;  "></div>
+		</div>
+		<div class="col-md-10">
+				<div style="height:275px; background:purple; margin-top:15px;  ">
+
+<!---------->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+  
+    <div class="item active">
+      <img src="1.jpg" alt="n/a" style="height:275px; width:100%;">
+    </div>
+    <div class="item">
+      <img src="2.jpg" alt="n/a" style="height:275px; width:100%;">
+    </div>	
+    <div class="item">
+      <img src="3.jpg" alt="n/a" style="height:275px; width:100%;">
+    </div>	
+    <div class="item">
+      <img src="4.jpg" alt="n/a" style="height:275px; width:100%;">
+    </div>	
+    <div class="item">
+      <img src="5.jpg" alt="n/a" style="height:275px; width:100%; ">
+    </div>
+	
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!---------->
+				
+				
+				
+				</div>
+		</div>
+</section>
+<!------------------------------------------------------------>
+<!-----END content-top ------------------------------------->
+<!------------------------------------------------------------>
+	
+<!------------------------------------------------------------>
+<!-----START content  ------------------------------------->
+<!------------------------------------------------------------>
+<section class="section-content row">
+		<div class="col-md-2">
+			<div style="height:130px; background:purple; margin-top:15px; "></div>
+		</div>
+		<div class="col-md-10">
+				<div style="height:135px; background:purple; margin-top:15px;  "></div>
+		</div>
+</section>
+<!------------------------------------------------------------>
+<!-----END content ------------------------------------->
+<!------------------------------------------------------------>
+
+<!------------------------------------------------------------>
+<!-----START content-bottom  ------------------------------------->
+<!------------------------------------------------------------>
+<section class="section-content-bottom row">
+		<div class="col-md-4">
+			<div style="height:130px; background:purple; margin-top:15px; "></div>
+		</div>
+		<div class="col-md-4">
+			<div style="height:130px; background:purple; margin-top:15px; "></div>
+		</div>
+		<div class="col-md-4">
+			<div style="height:130px; background:purple; margin-top:15px; "></div>
+		</div>
+</section>
+<!------------------------------------------------------------>
+<!-----END content ------------------------------------->
+<!------------------------------------------------------------>
+
+<!------------------------------------------------------------>
+<!-----START content-footer  ------------------------------------->
+<!------------------------------------------------------------>
+<section class="section-footer row">
+	<div class="col-md-12 ">
+		<h5 class="title text-center">Header</h5>	
+	</div>
+</section>
+<!------------------------------------------------------------>
+<!---------END content ------------------------------------->
+<!------------------------------------------------------------>
+  </div>
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
