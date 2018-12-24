@@ -1,0 +1,15 @@
+/*
+	Theme Name: Temp-15
+	Theme URI: https://www.cpds2s.com/
+	Theme Author: batch 03|Morning
+*/
+
+.body{
+		background:#FFF2CC; 
+}
+.title{ font-size:7em;  }
+.navbar-default{ border:0px; margin-bottom:0px; background:none;  border-radius:0px;  background:transparent;  }
+.link-menu{ background:black; color:#0078D7;  	text-align:center;  font-size:18px; padding:1%;  }
+.link-menu a{ color:#0078D7; font-weight:bold; text-decoration:none;  }
+.active-menu{ background:#0078D7; color:white;  text-align:center;  font-size:18px; padding:1%;  }
+.active-menu a{ color:white; }
