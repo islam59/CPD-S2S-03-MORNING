@@ -13,3 +13,11 @@
 .link-menu a{ color:#0078D7; font-weight:bold; text-decoration:none;  }
 .active-menu{ background:#0078D7; color:white;  text-align:center;  font-size:18px; padding:1%;  }
 .active-menu a{ color:white; }
+
+.btn-primary{ 
+	border-radius:0px; 
+}
+.form-control{
+	border-radius:0px; 
+	background:#d0d0d0; 
+}
