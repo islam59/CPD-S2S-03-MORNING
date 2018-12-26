@@ -1,0 +1,23 @@
+.navbar-default{
+	border:0px; 
+	border-radius:0px; 
+	background:transparent; 
+}
+.menu{
+	
+}
+.menu-item{
+	color:red; 
+	background:purple; 
+	display:block; 
+	font-size:18px;  
+	line-height:50px; 
+	text-align:center; 
+}
+.menu-item-active{
+	color:white; 
+	background:teal; 
+	display:block; 
+	font-size:18px;  
+	line-height:50px; 	text-align:center; 
+}
