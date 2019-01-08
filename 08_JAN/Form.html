@@ -1,0 +1,19 @@
+<html>
+		<head></head>
+        <body>
+				<script>
+						function Addition(){
+							var x = document.getElementById("n1").value; 
+							var y = document.getElementById("n2").value; 
+							z = Number(x)+Number(y); 
+							document.getElementById("output").innerHTML=z; 
+						}
+				</script>		
+				
+					Value 1 = <input type="" id="n1"> &nbsp; 
+					Value 2 = <input type="" id="n2"> &nbsp; 
+					<input onclick="return Addition()" type="submit" value="ADD">
+					
+				<p style="padding:2%; text-align:center; font-size:2em; background:pink; " id="output"></p>
+        </body>
+</html>
