@@ -1,0 +1,16 @@
+<html>
+	<head></head>
+	<body>
+		<script>
+				function message(){
+					var x = document.getElementById("txt").value; 
+					document.getElementById("box").innerHTML=x;
+				}
+		</script>	
+
+		<input type="text" id="txt">
+		<input type="submit" value="Show" onClick="message()">
+		
+		<span id="box"></span>
+	</body>
+</html>
